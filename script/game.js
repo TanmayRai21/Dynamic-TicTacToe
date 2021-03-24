@@ -75,6 +75,7 @@ function canvasClicked(cellId) {
         }
 
         turn++;
+        moves.textContent = turn;
         filledBox[cellId - 1] = true;
         squaresFilled++;
         checkForWinners(filledValue[cellId - 1]); // last input to check
@@ -84,7 +85,7 @@ function canvasClicked(cellId) {
           setTimeout(function() {
             header.textContent = "Tic Tac Toe";
             playAgain();
-          }, 2000);
+          }, 1000);
         }
         break;
 

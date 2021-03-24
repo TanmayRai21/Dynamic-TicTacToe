@@ -83,3 +83,4 @@ let reset = document.getElementById("btn");
 reset.addEventListener("click", playAgain);
 let inputSize = document.getElementById("gameSize");
 inputSize.addEventListener("change", onSizeChange);
+let moves = document.getElementById("moves");
