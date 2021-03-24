@@ -1,0 +1,49 @@
+body {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 212, 255, 1) 51%,
+    rgba(87, 100, 196, 1) 91%
+  );
+}
+
+#header {
+  border: 2px solid white;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 5px 40px;
+  color: darkslateblue;
+  background: whitesmoke;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.box {
+  text-align: left;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+#gameSize,
+#btn {
+  padding: 6px 10px;
+  background: whitesmoke;
+  cursor: pointer;
+  transition: 0.2s linear;
+  border: 2px solid white;
+  outline: none;
+  border-radius: 40px;
+}
+
+#gameSize:hover,
+#btn:hover {
+  background: darkcyan;
+  color: whitesmoke;
+  border-radius: 0px;
+}
